@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;}
+    
+
+header{position: sticky;
+top:0;
+background-color: coral;
+}
+
+.menu{list-style: none;font-size: 0;
+}
+
+.menu__item{display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+font-size: 20px;
+margin: 0%;
+}
+
+.menu__item> a{color: rgb(226, 222, 229);
+text-decoration: none;
+}
+
+
+div{margin-left: auto;}
+
+h1{color: rgb(206, 21, 21);
+font-size:200%;
+}
+
+h4{color: rgb(165, 42, 42);
+font-size: 150%;
+text-align: center;}
+
+.cards{
+    padding: 150px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.card{
+    width: 100%;
+    background-color: coral;
+}
+
+.card-img{
+    max-width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    }
+
+.card-button{
+    border: 0;
+    background-color: chocolate;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+footer{background-color: black;
+font-family: 'Times New Roman', Times, serif;
+color: antiquewhite;
+}
+.img-back{
+    background-image: url(../img/meraki\ logo\ png.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+}
+.servicios{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    color: coral;
+}
+
+.galery{display: flex;
+flex-direction: row;
+width: 100%;
+justify-content:space-around;
+}
+.imgGalery{width: 30%;
+justify-content: space-around;}
+
+.img-contacto{margin: 10px;}
+
+.contenido.qs{display: flex;
+flex-direction: column;
+justify-content: left;
+font-family: 'Times New Roman', Times, serif;
+color: coral;}
+
+/****************/
+
+@media screen and (max-width: 648px) {
+
+    .cards {
+  
+      grid-template-columns: 1fr;
+  
+    }
+   }
+
+.videoPrincipal{
+    max-width: 100%;
+}
+
+.img__contenido{
+    max-width: 100%;
+}
