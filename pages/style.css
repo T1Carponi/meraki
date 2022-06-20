@@ -29,15 +29,19 @@ text-decoration: none;
 }
 
 
-div{margin-left: auto;}
-
-h1{color: rgb(206, 21, 21);
-font-size:200%;
+.contenidoQs{
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction:column;
+    max-width: 100%;
 }
 
-h4{color: rgb(165, 42, 42);
-font-size: 150%;
-text-align: center;}
+.imgQS{
+    max-width: 50%;
+    justify-content: space-around;
+    max-height: 50%;
+}
 
 .cards{
     padding: 150px;
@@ -91,11 +95,6 @@ justify-content: space-around;}
 
 .img-contacto{margin: 10px;}
 
-.contenido.qs{display: flex;
-flex-direction: column;
-justify-content: left;
-font-family: 'Times New Roman', Times, serif;
-color: coral;}
 
 /****************/
 
@@ -115,3 +114,21 @@ color: coral;}
 .img__contenido{
     max-width: 100%;
 }
+
+.footerList{
+    list-style: none;
+}
+
+
+.footerList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.carousel-inner{
+ width: 100px;
+ height: 600px;
+}
+
