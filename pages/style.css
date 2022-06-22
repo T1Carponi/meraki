@@ -113,9 +113,6 @@ justify-content: space-around;}
     }
    }
 
-.videoPrincipal{
-    max-width: 100%;
-}
 
 .img__contenido{
     max-width: 100%;
@@ -126,13 +123,6 @@ justify-content: space-around;}
     display: flex;
     flex-direction: column;
 
-}
-
-
-.footerList{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 
