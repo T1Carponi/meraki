@@ -9,6 +9,7 @@ body{
     
 
 header{position: sticky;
+    z-index: 2;
 top:0;
 background-color: coral;
 }
@@ -96,7 +97,12 @@ justify-content: space-around;}
 .img-contacto{margin: 10px;}
 
 
+  
+
+
 /****************/
+
+
 
 @media screen and (max-width: 648px) {
 
@@ -115,8 +121,11 @@ justify-content: space-around;}
     max-width: 100%;
 }
 
-.footerList{
+.footerList:hover{
     list-style: none;
+    display: flex;
+    flex-direction: column;
+
 }
 
 
