@@ -53,16 +53,24 @@ top:0;
     border-radius: 5px;
 }
 
-footer{background-color: black;
+footer{
+background-color: black;
 font-family: 'Times New Roman', Times, serif;
 color: antiquewhite;
+text-align: left;
 }
+
+.footerList{
+    list-style: none;
+}
+
 .img-back{
     background-image: url(../img/meraki\ logo\ png.png);
     background-repeat: no-repeat;
     background-position: center center;
     text-align: center;
 }
+
 .servicios{
     display: flex;
     flex-direction: column;
@@ -75,6 +83,7 @@ flex-direction: row;
 width: 100%;
 justify-content:space-around;
 }
+
 .imgGalery{width: 30%;
 justify-content: space-around;}
 
@@ -82,14 +91,23 @@ justify-content: space-around;}
 
 .imgLogo{
     background-color: black;
-   text-align: center;
-        
+   text-align: center;      
+}
+
+.logo{
+    animation:heartbeat 1.5s ease-in-out infinite both
+}
+
+.copy{
+    text-align:center;
+
+  
 }
 
 
 /****************/
 
-
+ @keyframes heartbeat{from{transform:scale(1);transform-origin:center center;animation-timing-function:ease-out}10%{transform:scale(.91);animation-timing-function:ease-in}17%{transform:scale(.98);animation-timing-function:ease-out}33%{transform:scale(.87);animation-timing-function:ease-in}45%{transform:scale(1);animation-timing-function:ease-out}}
 
 @media screen and (max-width: 648px) {
 
@@ -105,20 +123,4 @@ justify-content: space-around;}
     max-width: 100%;
 }
 
-.footerList:hover{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-
-}
-
-
-.carousel-inner{
- width: 100px;
- height: 600px;
-}
-
-.mainNAv{
-    background-color: black;
-}
 
