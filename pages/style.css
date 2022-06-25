@@ -11,24 +11,8 @@ body{
 header{position: sticky;
     z-index: 2;
 top:0;
-background-color: coral;
-}
 
-.menu{list-style: none;font-size: 0;
 }
-
-.menu__item{display:inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 20%;
-font-size: 20px;
-margin: 0%;
-}
-
-.menu__item> a{color: rgb(226, 222, 229);
-text-decoration: none;
-}
-
 
 .contenidoQs{
     text-align: start;
@@ -96,8 +80,11 @@ justify-content: space-around;}
 
 .img-contacto{margin: 10px;}
 
-
-  
+.imgLogo{
+    background-color: black;
+   text-align: center;
+        
+}
 
 
 /****************/
@@ -129,5 +116,9 @@ justify-content: space-around;}
 .carousel-inner{
  width: 100px;
  height: 600px;
+}
+
+.mainNAv{
+    background-color: black;
 }
 
