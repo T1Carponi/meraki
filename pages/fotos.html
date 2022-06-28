@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+   
 <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Fotos</title>
@@ -37,13 +41,74 @@
             </div>
           </nav>
     </header>
-<section class="galery">
-  <img class="imgGalery" src="../img/aprender-kitesurf-principiantes-1.jpg" width="100">
-  <br><br>
-  <img class="imgGalery" src="../img/kitesurf-3273833-istock.jpg" alt="kite salto" width="100">
- <br><br>
-  <img class="imgGalery" src="../img/da1-5.jpg" alt="playa kitesurf" width="100">   
+
 </section>
+
+<div class="container gallery-container">
+
+    <h1>Gallery</h1>
+
+    <p class="page-description text-center">Las mejores fotos</p>
+    
+    <div class="tz-gallery">
+
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../img/img index1.jpg">
+                    <img src="../img/img index1.jpg" alt="Park">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../img/img index2.jpg">
+                    <img src="../img/img index2.jpg" alt="Bridge">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <a class="lightbox" href="../img/img index 3.surf.jpg">
+                    <img src="../img/img index 3.surf.jpg" alt="Tunnel">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../img/img index 4.jpg">
+                    <img src="../img/img index 4.jpg" alt="Coast">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../img/kitesurf-3273833-istock.jpg">
+                    <img src="../img/kitesurf-3273833-istock.jpg" alt="Rails">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../img/kitesurfing.jpg.crdownload">
+                    <img src="../img/kitesurfing.jpg.crdownload" alt="Traffic">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../img/clase.avanzada.jpg">
+                    <img src="../img/clase.avanzada.jpg" alt="Rocks">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../img/clase.intermedia.jpg">
+                    <img src="../img/clase.intermedia.jpg" alt="Benches">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../img/clase.inicial.jpg">
+                    <img src="../img/clase.inicial.jpg" alt="Sky">
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
+</body>
 
 <footer>
     <ul class="footerList">
