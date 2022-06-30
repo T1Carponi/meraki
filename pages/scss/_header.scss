@@ -1,0 +1,15 @@
+header{
+    position: sticky;
+    z-index: 2;
+top:0;
+
+    .imgLogo{
+    background-color: black;
+   text-align: center;  
+}
+
+.logo{
+    animation:heartbeat 1.5s ease-in-out infinite both
+   }
+
+}

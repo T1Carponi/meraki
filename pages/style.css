@@ -64,18 +64,11 @@ text-align: left;
     list-style: none;
 }
 
-.img-back{
-    background-image: url();
-    background-repeat: no-repeat;
-    background-position: center center;
-    text-align: center;
-}
-
 .servicios{
     display: flex;
     flex-direction: column;
     font-family: 'Times New Roman', Times, serif;
-    color: coral;
+    color: #ff7f50;
 }
 
 .galery{display: flex;
