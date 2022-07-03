@@ -21,6 +21,8 @@ header .logo {
 
 .footerList {
   background-color: black;
+  list-style: none;
+  font-family: "Times New Roman", Times, serif;
 }
 .footerList .elementos {
   color: antiquewhite;
@@ -82,4 +84,91 @@ header .logo {
     -webkit-animation-timing-function: ease-out;
             animation-timing-function: ease-out;
   }
+}
+.cards {
+  color: antiquewhite;
+  padding: 150px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.cards .card {
+  width: 100%;
+  background-color: rgb(29, 19, 16);
+}
+.cards .card-img {
+  max-width: 100%;
+  display: grid;
+  grid-template-rows: auto;
+}
+.cards .card-button {
+  border: 0;
+  background-color: rgba(255, 217, 0, 0.815);
+  padding: 20px;
+  border-radius: 5px;
+}
+.cards .cards {
+  grid-template-columns: 1fr;
+}
+
+.container.gallery-container body {
+  background-image: linear-gradient(to top, #ecedee 0%, #eceeef 75%, #e7e8e9 100%);
+  min-height: 100vh;
+  font: normal 16px sans-serif;
+  padding: 60px 0;
+}
+.container.gallery-container .container.gallery-container {
+  background-color: #fff;
+  color: #35373a;
+  min-height: 100vh;
+  border-radius: 20px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+.container.gallery-container .gallery-container h1 {
+  text-align: center;
+  margin-top: 70px;
+  font-family: "Droid Sans", sans-serif;
+  font-weight: bold;
+}
+.container.gallery-container .gallery-container p.page-description {
+  text-align: center;
+  max-width: 800px;
+  margin: 25px auto;
+  color: #888;
+  font-size: 18px;
+}
+.container.gallery-container .tz-gallery {
+  padding: 40px;
+}
+.container.gallery-container .tz-gallery .lightbox img {
+  width: 100%;
+  margin-bottom: 30px;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+.container.gallery-container .tz-gallery .lightbox img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+.container.gallery-container .tz-gallery img {
+  border-radius: 4px;
+}
+.container.gallery-container .baguetteBox-button {
+  background-color: transparent !important;
+}
+@media (max-width: 768px) {
+  .container.gallery-container body {
+    padding: 0;
+  }
+  .container.gallery-container .container.gallery-container {
+    border-radius: 0;
+  }
+}
+
+.img-contacto {
+  margin: 10px;
+}
+
+.img__contenido {
+  max-width: 100%;
 }/*# sourceMappingURL=estilo.css.map */
