@@ -1,0 +1,2 @@
+cambio de titulo de fotos a galery, quienes somos a sobre nosotros.
+@extend para las cards con una animacion, y un mixin para el footer.
